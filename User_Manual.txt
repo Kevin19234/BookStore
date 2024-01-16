@@ -1,0 +1,10 @@
+Kevin Parra
+
+Term Project
+
+User Manual: The Online Library Program is designed to be setup as a regular website for shopping for books online. The user will login and will be sent into the website where you will see a home page with an explanation of the website. There will also be a Books tab where the user can see the inventory with the option to add to cart and take you to the third tab which is the checkout page. This page will be setup as a cart that will hold the   books you choose for purchase and it will calculate your order total and you will have the option to add items, remove items, and finally to order them and receive a confirmation message.
+
+User credentials: 
+
+Username: parraolk@kean.edu
+Password: Kevin19234

@@ -1,0 +1,56 @@
+<!DOCTYPE html>  
+<html>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<head>
+    <link rel="stylesheet" href="css/Login.css">
+    <style>
+        body, html{
+    height: 100%;
+    margin:0;
+} 
+    body {
+   background-image: url('includes/Library_.jpeg'); 
+    background-color: #cccccc;
+        height: 100%; 
+
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+    </style>
+    <title>
+    Login
+    </title>
+</head>
+<body>
+ <div id="login">
+ <div class="container">
+ <div id="login-row" class="row justify-content-center align-items-center">
+ <div id="login-column" class="col-md-6">
+    <div id="login-box" class="col-md-12">
+    <form action="Mysql.php" method="POST">
+        <h3 class="text-center text-info">Welcome to the Online Book Store!</h3>
+        <br>
+    <h3 class="text-center text-info">Login</h3>
+    <div class="form-group">
+    <label for="username" class="text-info">Username:</label><br>
+    <input type="text" name="username" id="username" class="form-control" pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$" required>
+    </div>
+    <div class="form-group">
+    <label for="password" class="text-info">Password:</label><br>
+    <input type="password" name="pwd" id="pwd" class="form-control" pattern="[a-zA-Z0-9]+" minlength ="10" maxlength="12" required>
+    </div>
+    <div class="form-group">
+    <input type="submit" name="Login" class="btn btn-info btn-md" value="Login"formaction="http://localhost:8080/Project/">
+    </div>
+ </form>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+</body>
+</html>    
